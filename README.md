@@ -30,9 +30,3 @@ L'agent récupère les données en temps réel via Splunk :
 -   **Data** : API Splunk pour météo et logs
 -   **Backend** : FastAPI, Pandas, InfluxDB
 -   **Déploiement** : Streamlit Community Cloud
-
-## 4. Installation Locale
-```bash
-cd moniteur-solarops
-pip install -r requirements.txt
-streamlit run app.py
